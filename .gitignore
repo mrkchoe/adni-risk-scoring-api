@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+
+# Data and secrets
+data/
+.env
+*.env
+*.key
+*.pem
+
+# Models: allow only toy artifacts
+/models/*
+!/models/.gitkeep
+!/models/toy/
+!/models/toy/**
